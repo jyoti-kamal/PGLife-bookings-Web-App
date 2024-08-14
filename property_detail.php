@@ -401,7 +401,7 @@ $interested_users_count = mysqli_num_rows($result_4);
         ?>
             <div class="testimonial-block">
                 <div class="testimonial-image-container">
-                    <img class="testimonial-img" src="img/mulusers.png">
+                    <img class="testimonial-img" src="img/mann.png">
                 </div>
                 <div class="testimonial-text">
                     <i class="fa fa-quote-left" aria-hidden="true"></i>
