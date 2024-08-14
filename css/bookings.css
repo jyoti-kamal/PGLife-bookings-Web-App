@@ -1,0 +1,148 @@
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.booking-page {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #66C2BD;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.property-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.property-info {
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 12px;
+    background-color: #f1f1f1;
+}
+
+.property-info h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.property-info p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.checkout-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-section h3 {
+    font-size: 24px;
+    color: #66C2BD;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="date"], 
+input[type="text"] {
+    padding: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"][readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+input[type="date"]:focus, 
+input[type="text"]:focus {
+    border-color: #66C2BD;
+    outline: none;
+}
+
+button.btn-primary {
+    background-color: #66C2BD;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: center;
+}
+
+button.btn-primary:hover {
+    background-color:#66C2BD;
+}
+
+.property-details img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .property-details {
+        flex-direction: column;
+    }
+}
+
+/* Footer spacing */
+footer {
+    margin-top: 40px; /* Adjust this value as needed */
+}
+
